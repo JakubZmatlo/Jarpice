@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+header {
+  background-color: rgb(12, 0, 64);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  width: 94.5rem
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(12, 0, 64);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+.h2home {
+  text-align: center;
+  margin-left: 0%;
+}
+
+.h2aktual {
+  text-align: left;
+  margin-left: 5%;
+}
+
+.homep {
+  text-align: center;
+  margin-left: 0%;
+}
+
+.aktualp{
+  text-align: left;
+  margin-left: 5%;
+}
+
+.card1 {
+  margin-left: 40%;
+  margin-right: 20%;
+}
+
+.card2 {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.akcecard1 {
+  width: 70rem; 
+  
+}
+
+.footp{
+  text-align: center;
+  margin-right: 40%;
+  margin-left: 30%;
+}
+
+.historydiv {
+  text-align: center;
+}
+
+.homdiv {
+  padding: 5%;
+}
+
+.ples{
+  margin-left: 25%;
+}
