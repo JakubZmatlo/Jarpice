@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Box from '@mui/material/Box';
+
 
 
 export default function Header() {
     return (
             <header>
-                <img src="src/assets/Images/Znak.jpg"/>
+                <Box sx={{ minWidth: 275 }} display="flex" justifyContent="center" alignItems="center">
                 <br />
                 <h1>Jarpice</h1>
                 <nav>
@@ -16,7 +18,9 @@ export default function Header() {
                         <li><Link to="/historie">Historie obce</Link></li>
                         <li><Link to="/fotogalerie">Fotogalerie</Link></li>
                     </ul>
-                </nav>
+                </nav>                
+            </Box>
+
             </header>
     );
 }

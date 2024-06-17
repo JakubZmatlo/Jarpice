@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  width: 100%;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
   color: #fff;
   padding: 10px 0;
   text-align: center;
-  width: 94.5rem
+  width: 100%
 }
 
 header h1 {
@@ -98,4 +98,14 @@ h2 {
 
 .ples{
   margin-left: 25%;
+}
+
+.mestoimg {
+  width: 1519px;
+  height: 500px;
+  display: block; /* Odstranění mezery pod obrázkem */
+}
+
+.fotky {
+  width: 100%;
 }

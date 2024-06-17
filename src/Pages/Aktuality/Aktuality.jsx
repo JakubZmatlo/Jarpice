@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer'
 import '../../App.css'
 import { Link } from 'react-router-dom';
@@ -7,7 +6,6 @@ import { Link } from 'react-router-dom';
 export default function Aktuality() {
   return (
     <>
-      <Header />
       <div className='historydiv'>
         <h2 className='h2aktual'><Link to="">Očkování psů 21.5.2024</Link></h2>
         <h2 className='h2aktual'><Link to="">VTE Jarpice</Link></h2>

@@ -9,7 +9,7 @@ import '../../App.css'
 export default function Home() {
     return (
         <>
-            <Header display="flex" />
+        <img src="src/assets/Images/Mesto.jpg" alt="" className='mestoimg'/>
             <div className='homdiv'>
                 <h2 text-align="center" justify-content="center" display="flex" className='h2home'>O nás</h2>
                 <p className='homep'>Obec Jarpice se nachází v okrese Kladno, kraj Středočeský. <br />

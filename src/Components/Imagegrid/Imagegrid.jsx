@@ -4,7 +4,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 export default function StandardImageList() {
   return (
-    <ImageList sx={{ width: 1300, height: 1000 }} cols={5} rowHeight={164}>
+    <ImageList sx={{ width: 1516, height: 1000 }} cols={5} rowHeight={164}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -21,7 +21,7 @@ export default function StandardImageList() {
 
 const itemData = [
   {
-    img: 'https://www.jarpice.cz/image.php?nid=14113&oid=7738368&width=585',
+    img: 'https://www.jarpice.cz/image.php?nid=14113&oid=4600588&width=700',
     title: 'Breakfast',
   },
   {
