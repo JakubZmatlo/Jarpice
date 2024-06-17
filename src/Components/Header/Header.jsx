@@ -13,7 +13,7 @@ export default function Header() {
                 <nav>
                     <ul>
                         <li><Link to="/">Hlavní stránka</Link></li>
-                        <li><Link to="/aktuality">Aktuality a události</Link></li>
+                        <li><Link to="/aktuality">Turistika</Link></li>
                         <li><Link to="/akce">Akce</Link></li>
                         <li><Link to="/historie">Historie obce</Link></li>
                         <li><Link to="/fotogalerie">Fotogalerie</Link></li>

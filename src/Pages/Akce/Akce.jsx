@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
 import Box from '@mui/material/Box';
 import Card1 from '../../Components/Cards/Akcecards/Card1'
@@ -15,10 +16,12 @@ import '../../App.css'
 export default function Akce() {
     return (
         <>
-            <div>
-                <h2 text-align="center" justify-content="center" display="flex" className='h2home'>Akce v obci</h2>
+        <Header/>
+        <br />
+        <br />
+        <br />
+                <h2 text-align="center" justify-content="center" display="flex">Akce v obci</h2>
                 <img className='ples' src="src/assets/Images/Ples.jpg" alt="" justify-content="center"/>
-            </div>
             <br />
             <div className='homdiv'>
                 <Box sx={{ minWidth: 275 }} display="flex" >

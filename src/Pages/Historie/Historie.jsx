@@ -9,6 +9,9 @@ export default function Historie() {
     <>
       <Header />
      <div className='historydiv'>
+      <br />
+      <br />
+      <br />
         <h2>Historie</h2>
         <p>Jarpice byly osídleny již někdy před rokem 1333.
           Od tohoto roku jsou první zprávy, které uvedl děkan František Komárek.

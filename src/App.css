@@ -3,18 +3,23 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
+
 
 header {
   background-color: rgb(12, 0, 64);
-  color: #fff;
+  color: #ffffff;
   padding: 10px 0;
   text-align: center;
-  width: 100%
+  width: 100%;
+  position: absolute;
 }
 
 header h1 {
   margin: 0;
+  color: rgb(255, 255, 255);
 }
 
 nav ul {
@@ -35,16 +40,17 @@ nav a {
 
 footer {
   background-color: rgb(12, 0, 64);
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px 0;
-  position: relative;
   bottom: 0;
-  width: auto;
+  width: 100%;
+  position: inherit;
 }
 
 h2 {
   text-align: center;
+  color: black;
 }
 
 .h2home {
@@ -70,6 +76,7 @@ h2 {
 .card1 {
   margin-left: 40%;
   margin-right: 20%;
+  color: rgb(12, 0, 64);
 }
 
 .card2 {
@@ -79,13 +86,27 @@ h2 {
 
 .akcecard1 {
   width: 70rem; 
-  
 }
 
+.aktcard {
+  margin-left: 25%;
+  margin-right: 5%;
+}
+
+
 .footp{
-  text-align: center;
-  margin-right: 40%;
-  margin-left: 30%;
+  text-align: justify;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.footp2{
+  text-align: justify;
+  margin-right: 10%;
+}
+
+.footp3{
+  text-align: justify;
 }
 
 .historydiv {
@@ -97,13 +118,13 @@ h2 {
 }
 
 .ples{
-  margin-left: 25%;
+  margin-left: 35%;
 }
 
 .mestoimg {
   width: 1519px;
   height: 500px;
-  display: block; /* Odstranění mezery pod obrázkem */
+  display: block; 
 }
 
 .fotky {

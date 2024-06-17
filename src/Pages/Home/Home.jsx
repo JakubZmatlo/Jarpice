@@ -9,6 +9,7 @@ import '../../App.css'
 export default function Home() {
     return (
         <>
+        <Header/>
         <img src="src/assets/Images/Mesto.jpg" alt="" className='mestoimg'/>
             <div className='homdiv'>
                 <h2 text-align="center" justify-content="center" display="flex" className='h2home'>O nás</h2>
@@ -30,7 +31,16 @@ export default function Home() {
             <br />
             <br />
             <br />
+            <iframe 
+            frameBorder="0" 
+            height="563" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17138.011119578816!2d14.083740797792055!3d50.31841844271062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bcd8b4b883fc9%3A0x400af0f66152590!2sJarpice!5e0!3m2!1scs!2scz!4v1443681050795" 
+            width="1500"
+            className='map'
+            >
+            </iframe>
             <br />
+             <br />
             <div>
             <Footer />
             </div>
