@@ -13,7 +13,7 @@ export default function BasicCard() {
             <Card sx={{ minWidth: 275 }} className='aktcard'>
                 <CardContent>
                     <Typography variant="h5" component="div">
-                        Rozhledna Kožová hora nedaleko Kladna
+                        Rozhledna Veselov – malá, ale hezká
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
                         <br />
@@ -23,7 +23,7 @@ export default function BasicCard() {
                         <br />
                         Typ: Rozhledna
                         <br />
-                        Kožová hora, které se také říká Kožova hora či Kožovka, je oblíbené výletní místo především lidí z Kladna a okolí. Nachází se totiž asi dva kilometry jižně od tohoto města v nadmořské výšce 456 metrů…
+                     Na kopci, nad obcí Družec, západně od Prahy a v těsné blízkosti dálnice D6, se nachází sice malá, ale určitě zajímavá rozhledna. Dřevěná vyhlídková věž vznikla ve spolupráci obcí Baškov, Doksy,…
                     </Typography>
                 </CardContent>
                 <CardActions>

@@ -13,7 +13,7 @@ export default function BasicCard() {
             <Card sx={{ minWidth: 275 }} className='aktcard'>
                 <CardContent>
                     <Typography variant="h5" component="div">
-                        Rozhledna Kožová hora nedaleko Kladna
+                        Lidice - Pomník dětským obětem války
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
                         <br />
@@ -21,9 +21,11 @@ export default function BasicCard() {
                     <Typography variant="body2">
                         Místo: Kladno
                         <br />
-                        Typ: Rozhledna
+                        Typ: Socha
                         <br />
-                        Kožová hora, které se také říká Kožova hora či Kožovka, je oblíbené výletní místo především lidí z Kladna a okolí. Nachází se totiž asi dva kilometry jižně od tohoto města v nadmořské výšce 456 metrů…
+                     Při návštěvě Pietního místa v Lidicích mne uchvátil a dojal Památník dětským obětem války. Památník vytvořila akademická sochařka Marie Uchytilová-Kučová společně se svým manželem Jiřím Václavem…
+
+Více
                     </Typography>
                 </CardContent>
                 <CardActions>

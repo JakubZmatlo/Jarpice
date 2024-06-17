@@ -13,7 +13,7 @@ export default function BasicCard() {
             <Card sx={{ minWidth: 275 }} className='aktcard'>
                 <CardContent>
                     <Typography variant="h5" component="div">
-                        Rozhledna Kožová hora nedaleko Kladna
+                        Památný dub u Svárovské hájovny
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
                         <br />
@@ -21,9 +21,9 @@ export default function BasicCard() {
                     <Typography variant="body2">
                         Místo: Kladno
                         <br />
-                        Typ: Rozhledna
+                        Typ: Památný strom
                         <br />
-                        Kožová hora, které se také říká Kožova hora či Kožovka, je oblíbené výletní místo především lidí z Kladna a okolí. Nachází se totiž asi dva kilometry jižně od tohoto města v nadmořské výšce 456 metrů…
+                     Tento památný strom roste na břehu Rymáňského potoka kousek nad jeho ústím do Loděnice u Podkozí. Za památný strom byl tento dub letní vyhlášen spolu s dalšími stromy kladenského okresu 15. 1. 1985…
                     </Typography>
                 </CardContent>
                 <CardActions>

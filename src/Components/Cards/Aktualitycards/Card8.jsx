@@ -13,7 +13,7 @@ export default function BasicCard() {
             <Card sx={{ minWidth: 275 }} className='aktcard'>
                 <CardContent>
                     <Typography variant="h5" component="div">
-                        Rozhledna Kožová hora nedaleko Kladna
+                       Kladno - Arciděkanský Kostel Nanebevzetí Panny Marie
                     </Typography>
                     <Typography sx={{ mb: 1.5 }} color="text.secondary">
                         <br />
@@ -21,9 +21,9 @@ export default function BasicCard() {
                     <Typography variant="body2">
                         Místo: Kladno
                         <br />
-                        Typ: Rozhledna
+                        Typ: Kostel
                         <br />
-                        Kožová hora, které se také říká Kožova hora či Kožovka, je oblíbené výletní místo především lidí z Kladna a okolí. Nachází se totiž asi dva kilometry jižně od tohoto města v nadmořské výšce 456 metrů…
+                     Původně se zde nacházela stavba gotického kostela z 50. let 14. století. Ta byla v průběhu staletí několikrát přestavována. Vzhledem k rychle rostoucímu počtu obyvatel města Kladna v 19. století však…
                     </Typography>
                 </CardContent>
                 <CardActions>
