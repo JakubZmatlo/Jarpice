@@ -21,7 +21,7 @@ export default function StandardImageList() {
 
 const itemData = [
   {
-    img: 'src/assets/Images/Budova.png',
+    img: 'https://www.jarpice.cz/image.php?nid=14113&oid=7738368&width=585',
     title: 'Breakfast',
   },
   {

@@ -20,7 +20,7 @@ export default function Akce() {
         <br />
         <br />
         <br />
-                <h2 text-align="center" justify-content="center" display="flex">Akce v obci</h2>
+                <h2 text-align="center" justify-content="center" display="flex" className='h2akc'>Akce v obci</h2>
                 <img className='ples' src="src/assets/Images/Ples.jpg" alt="" justify-content="center"/>
             <br />
             <div className='homdiv'>
